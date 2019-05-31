@@ -1,13 +1,23 @@
 # Write your code here. 
 
-
 katz_deli = []
+ticket = 0 
 
-
-def take_a_number(katz_deli, name)
-   katz_deli.push(name)
-  puts "Welcome, #{name}. You are number #{katz_deli.length} in line." 
+def take_a_number(katz_deli)
+   
+  ticket += 1 
+  katz_deli << ticket
+  puts "Welcome, you have taken number #{ticket} in line."
 end
+
+
+
+
+
+# def take_a_number(katz_deli, name)
+#   katz_deli.push(name)
+#   puts "Welcome, #{name}. You are number #{katz_deli.length} in line."
+# end
 
 
 
